@@ -1,6 +1,6 @@
 {
   "name": "a73-inuit-md-icon-generics",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "Font Icon Generic to use within InuitCSS, based on Material Design font from google",
   "main": "_generics.md-icon.scss",
   "repository": {
@@ -14,7 +14,7 @@
   },
   "homepage": "hhttps://github.com/a73-inuit/generics.md-icon",
   "dependencies": {
-    "a73-inuit-md-icon-settings": "~0.1.0"
+    "a73-inuit-md-icon-settings": "~0.1.3"
   },
   "keywords": [
     "inuitcss",
