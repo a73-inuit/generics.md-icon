@@ -12,10 +12,10 @@
     font-family: $inuit-md-family;
     font-style: normal;
     font-weight: 400;
-    src: url({$inuit-md-font-dir}{$inuit-md-eot-name}); /* For IE6-8 */
-    src: local('$inuit-md-family'),
-    local('$inuit-md-font-name'),
-    url({$inuit-md-font-dir}{$inuit-md-font-name}.woff2) format('woff2'),
-    url({$inuit-md-font-dir}{$inuit-md-font-name}.woff) format('woff'),
-    url({$inuit-md-font-dir}{$inuit-md-font-name}.ttf) format('truetype');
+    src: url('#{$inuit-md-font-dir}#{$inuit-md-font-name}.eot'); /* For IE6-8 */
+    src: local('#{$inuit-md-family}'),
+    local('#{$inuit-md-font-name}'),
+    url('#{$inuit-md-font-dir}#{$inuit-md-font-name}.woff2') format('woff2'),
+    url('#{$inuit-md-font-dir}#{$inuit-md-font-name}.woff') format('woff'),
+    url('#{$inuit-md-font-dir}#{$inuit-md-font-name}.ttf') format('truetype');
 }
