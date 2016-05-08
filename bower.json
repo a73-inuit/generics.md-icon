@@ -1,0 +1,22 @@
+{
+  "name": "a73-inuit-md-icon-generics",
+  "version": "0.1.0",
+  "homepage": "https://github.com/a73-inuit/generics.md-icon",
+  "authors": [
+    "Rodrigo Erades <rerades@siete3.com>"
+  ],
+  "description": "Font Icon generic to use within InuitCSS, based on Material Design font from google",
+  "main": "_generics.md-icon.scss",
+  "ignore": [],
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css",
+    "font icon",
+    "Material Design"
+  ],
+  "dependencies": {
+    "a73-inuit-md-icon-settings": "~0.1.0"
+  },
+  "license": "MIT"
+}
